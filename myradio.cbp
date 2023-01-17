@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="myradio" />
+		<Option platforms="Windows;" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;" />
+				<Option output="bin/Debug/myradio" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="bin/Release/myradio" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fexpensive-optimizations" />
+			<Add option="-O3" />
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-finput-charset=UTF-8" />
+			<Add option="-DUNICODE" />
+			<Add option="-D_UNICODE" />
+			<Add option="-DNDEBUG" />
+			<Add option="-DSQLITE_DEFAULT_AUTOVACUUM=1" />
+			<Add option="-DMPG123_USE_ONLY_FLOAT64" />
+			<Add option="-DNEW_DCT9" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+			<Add library="comctl32" />
+			<Add library="../codeblocks/MinGW/lib/libws2_32.a" />
+			<Add library="../codeblocks/MinGW/lib/libwinmm.a" />
+		</Linker>
+		<Unit filename="all_type.h" />
+		<Unit filename="audio_engine/audio_util.cpp" />
+		<Unit filename="audio_engine/common.h" />
+		<Unit filename="audio_engine/decoders/decoder.cpp" />
+		<Unit filename="audio_engine/decoders/decoder.h" />
+		<Unit filename="audio_engine/decoders/decoder_internal.h" />
+		<Unit filename="audio_engine/decoders/decoder_mp3.cpp" />
+		<Unit filename="audio_engine/decoders/mympglib/MinMax.h" />
+		<Unit filename="audio_engine/decoders/mympglib/common.cpp" />
+		<Unit filename="audio_engine/decoders/mympglib/dct64_i386.cpp" />
+		<Unit filename="audio_engine/decoders/mympglib/decode_i386_float64.cpp" />
+		<Unit filename="audio_engine/decoders/mympglib/huffman.h" />
+		<Unit filename="audio_engine/decoders/mympglib/interface.cpp" />
+		<Unit filename="audio_engine/decoders/mympglib/l2tables.h" />
+		<Unit filename="audio_engine/decoders/mympglib/layer1.cpp" />
+		<Unit filename="audio_engine/decoders/mympglib/layer2.cpp" />
+		<Unit filename="audio_engine/decoders/mympglib/layer3.cpp" />
+		<Unit filename="audio_engine/decoders/mympglib/mympg123.h" />
+		<Unit filename="audio_engine/decoders/mympglib/mympglib.h" />
+		<Unit filename="audio_engine/decoders/mympglib/tabinit.cpp" />
+		<Unit filename="audio_engine/myaudio_engine.cpp" />
+		<Unit filename="audio_engine/myaudio_engine.h" />
+		<Unit filename="audio_engine/output/main_out.cpp" />
+		<Unit filename="audio_engine/output/main_out.h" />
+		<Unit filename="audio_engine/output/main_out_conv.cpp" />
+		<Unit filename="audio_engine/output/main_out_conv.h" />
+		<Unit filename="audio_engine/output/main_out_dither.cpp" />
+		<Unit filename="audio_engine/output/main_out_dither.h" />
+		<Unit filename="audio_engine/output/main_out_proc.cpp" />
+		<Unit filename="audio_engine/output/main_out_proc.h" />
+		<Unit filename="audio_engine/output/output_wmme.cpp" />
+		<Unit filename="audio_engine/output/output_wmme.h" />
+		<Unit filename="audio_engine/output/windows_waveformat.cpp" />
+		<Unit filename="audio_engine/output/windows_waveformat.h" />
+		<Unit filename="audio_engine/protocol.h" />
+		<Unit filename="audio_engine/protocol_http.h" />
+		<Unit filename="audio_engine/stream.cpp" />
+		<Unit filename="audio_engine/stream.h" />
+		<Unit filename="audio_engine/types.h" />
+		<Unit filename="font/font.cpp" />
+		<Unit filename="font/font.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="my_global_utils.h" />
+		<Unit filename="myhdr.h" />
+		<Unit filename="myradio.cpp" />
+		<Unit filename="myradio.h" />
+		<Unit filename="myradio_addradio.cpp" />
+		<Unit filename="myradio_basedialog.cpp" />
+		<Unit filename="myradio_config.cpp" />
+		<Unit filename="myradio_config_dialog.cpp" />
+		<Unit filename="myradio_string.cpp" />
+		<Unit filename="myradio_string.h" />
+		<Unit filename="myutils.cpp" />
+		<Unit filename="net/mysock_proxy.cpp" />
+		<Unit filename="net/mysock_proxy.h" />
+		<Unit filename="res/myradio.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="res/resource.h" />
+		<Unit filename="sqlite3/sqdb.cpp" />
+		<Unit filename="sqlite3/sqdb.h" />
+		<Unit filename="sqlite3/sqlite3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sqlite3/sqlite3.h" />
+		<Unit filename="unicode/unicode_func.cpp" />
+		<Unit filename="xml/Attribute.cpp" />
+		<Unit filename="xml/Attribute.h" />
+		<Unit filename="xml/Cxml.cpp" />
+		<Unit filename="xml/Cxml.h" />
+		<Unit filename="xml/Node.cpp" />
+		<Unit filename="xml/Node.h" />
+		<Unit filename="xml/utils.cpp" />
+		<Unit filename="xml/utils.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="" main="" init_handlers="necessary" language="CPP" />
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,901 @@
+# depslib dependency file v1.0
+1454761669 source:c:\users\user\documents\programming\cb_prog\1\myradio\main.cpp
+	"myradio.h"
+
+1456073383 c:\users\user\documents\programming\cb_prog\1\myradio\myhdr.h
+	<windows.h>
+	<winsock.h>
+	<commctrl.h>
+	<commdlg.h>
+	<shellapi.h>
+	<shlobj.h>
+	<mmsystem.h>
+	<stdio.h>
+	<tchar.h>
+	<string>
+	<math.h>
+	<vector>
+	<cassert>
+
+1456597430 c:\users\user\documents\programming\cb_prog\1\myradio\myradio.h
+	"xml/Cxml.h"
+	"sqlite3/sqdb.h"
+
+1456594377 source:c:\users\user\documents\programming\cb_prog\1\myradio\myradio.cpp
+	"myradio.h"
+	"res/resource.h"
+
+1456597366 source:c:\users\user\documents\programming\cb_prog\1\myradio\myutils.cpp
+	"myradio.h"
+	<stdarg.h>
+
+1456595428 source:c:\users\user\documents\programming\cb_prog\1\myradio\myradio_config.cpp
+	"myradio.h"
+	<stdlib.h>
+	<time.h>
+
+1452369646 source:c:\users\user\documents\programming\cb_prog\1\myradio\myradio.rc
+	<windows.h>
+	<commctrl.h>
+	"resource.h"
+
+1452369646 c:\users\user\documents\programming\cb_prog\1\myradio\resource.h
+
+1446504244 source:c:\users\user\documents\programming\cb_prog\1\myradio\sqlite3.c
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	<tcl.h>
+	"sqlite3rtree.h"
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<ctype.h>
+	<math.h>
+
+1446504244 c:\users\user\documents\programming\cb_prog\1\myradio\sqlite3.h
+	<stdarg.h>
+
+1452006714 source:c:\users\user\documents\programming\cb_prog\1\myradio\sqlite3_unicode.c
+	"sqlite3ext.h"
+	"sqlite3.h"
+	<assert.h>
+	<string.h>
+
+1456596756 source:c:\users\user\documents\programming\cb_prog\1\myradio\myradio_addradio.cpp
+	"myradio.h"
+	"res/resource.h"
+
+1456590897 source:c:\users\user\documents\programming\cb_prog\1\myradio\myradio_string.cpp
+	"myhdr.h"
+	"myradio.h"
+
+1456154209 c:\users\user\documents\programming\cb_prog\1\myradio\res\resource.h
+
+1456154209 source:c:\users\user\documents\programming\cb_prog\1\myradio\res\myradio.rc
+	<windows.h>
+	<commctrl.h>
+	"resource.h"
+
+1456161278 c:\users\user\documents\programming\cb_prog\1\myradio\sqlite3\sqdb.h
+	"../myhdr.h"
+	"sqlite3.h"
+	<tchar.h>
+
+1446504244 c:\users\user\documents\programming\cb_prog\1\myradio\sqlite3\sqlite3.h
+	<stdarg.h>
+
+1456162840 source:c:\users\user\documents\programming\cb_prog\1\myradio\sqlite3\sqdb.cpp
+	"sqdb.h"
+	"../myradio.h"
+
+1446504244 source:c:\users\user\documents\programming\cb_prog\1\myradio\sqlite3\sqlite3.c
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	<tcl.h>
+	"sqlite3rtree.h"
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<ctype.h>
+	<math.h>
+
+1454188983 source:c:\users\user\documents\programming\cb_prog\1\myradio\xml\attribute.cpp
+	"Attribute.h"
+
+1454189155 c:\users\user\documents\programming\cb_prog\1\myradio\xml\attribute.h
+	"../myhdr.h"
+
+1456126162 source:c:\users\user\documents\programming\cb_prog\1\myradio\xml\cxml.cpp
+	"../myhdr.h"
+	"Cxml.h"
+	"utils.h"
+
+1456126032 c:\users\user\documents\programming\cb_prog\1\myradio\xml\cxml.h
+	"utils.h"
+
+1456126108 c:\users\user\documents\programming\cb_prog\1\myradio\xml\utils.h
+	"../myhdr.h"
+	"Node.h"
+
+1456126261 c:\users\user\documents\programming\cb_prog\1\myradio\xml\node.h
+	"Attribute.h"
+	<list>
+
+1456126311 source:c:\users\user\documents\programming\cb_prog\1\myradio\xml\node.cpp
+	"Node.h"
+
+1456126095 source:c:\users\user\documents\programming\cb_prog\1\myradio\xml\utils.cpp
+	"utils.h"
+
+1454782909 source:c:\users\user\documents\programming\cb_prog\1\myradio\net\ll_network.cpp
+	<winsock2.h>
+	<windows.h>
+	"../myhdr.h"
+	<winsock2.h>
+	<cmath>
+	<stdlib.h>
+	<time.h>
+	"ll_network.h"
+
+1454611570 c:\users\user\documents\programming\cb_prog\1\myradio\net\ll_network.h
+
+1456595138 source:c:\users\user\documents\programming\cb_prog\1\myradio\myradio_config_dialog.cpp
+	"myradio.h"
+	"res/resource.h"
+
+1456597021 source:c:\users\user\documents\programming\cb_prog\1\myradio\net\mysock_proxy.cpp
+	"../myhdr.h"
+	"../myradio.h"
+	<winsock2.h>
+	<cmath>
+	<stdlib.h>
+	<time.h>
+
+1456594534 source:c:\users\user\documents\programming\cb_prog\1\myradio\myradio_basedialog.cpp
+	"myradio.h"
+
+1454761670 source:i:\prog\myradio\main.cpp
+	"myradio.h"
+
+1460646754 i:\prog\myradio\myradio.h
+	"font/font.h"
+	"xml/Cxml.h"
+	"sqlite3/sqdb.h"
+
+1456126034 i:\prog\myradio\xml\cxml.h
+	"utils.h"
+
+1456126110 i:\prog\myradio\xml\utils.h
+	"../myhdr.h"
+	"Node.h"
+
+1457444802 i:\prog\myradio\myhdr.h
+	<windows.h>
+	<winsock.h>
+	<commctrl.h>
+	<commdlg.h>
+	<shellapi.h>
+	<shlobj.h>
+	<mmsystem.h>
+	<stdio.h>
+	<tchar.h>
+	<string>
+	<math.h>
+	<cassert>
+	<vector>
+	<map>
+
+1456126262 i:\prog\myradio\xml\node.h
+	"Attribute.h"
+	<list>
+
+1454189156 i:\prog\myradio\xml\attribute.h
+	"../myhdr.h"
+
+1458745580 i:\prog\myradio\sqlite3\sqdb.h
+	"../myhdr.h"
+	"sqlite3.h"
+	<tchar.h>
+
+1446504244 i:\prog\myradio\sqlite3\sqlite3.h
+	<stdarg.h>
+
+1460562660 source:i:\prog\myradio\myradio_addradio.cpp
+	"myradio.h"
+	"res/resource.h"
+
+1457291618 i:\prog\myradio\res\resource.h
+
+1456594536 source:i:\prog\myradio\myradio_basedialog.cpp
+	"myradio.h"
+
+1457519994 source:i:\prog\myradio\myradio_config.cpp
+	"myradio.h"
+	<stdlib.h>
+	<time.h>
+
+1457290604 source:i:\prog\myradio\myradio_config_dialog.cpp
+	"myradio.h"
+	"res/resource.h"
+
+1457289554 source:i:\prog\myradio\myradio_string.cpp
+	"myhdr.h"
+	"myradio.h"
+
+1458314514 source:i:\prog\myradio\net\mysock_proxy.cpp
+	"../myhdr.h"
+	"../myradio.h"
+	<winsock2.h>
+	<cmath>
+	<stdlib.h>
+	<time.h>
+
+1459260860 source:i:\prog\myradio\res\myradio.rc
+	<windows.h>
+	<commctrl.h>
+	"resource.h"
+
+1459419294 source:i:\prog\myradio\sqlite3\sqdb.cpp
+	"sqdb.h"
+	"../myradio.h"
+
+1446504244 source:i:\prog\myradio\sqlite3\sqlite3.c
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	<tcl.h>
+	"sqlite3rtree.h"
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<ctype.h>
+	<math.h>
+
+1454188984 source:i:\prog\myradio\xml\attribute.cpp
+	"Attribute.h"
+
+1457384642 source:i:\prog\myradio\xml\cxml.cpp
+	"../myhdr.h"
+	"Cxml.h"
+	"utils.h"
+
+1456126312 source:i:\prog\myradio\xml\node.cpp
+	"Node.h"
+
+1457196752 source:i:\prog\myradio\xml\utils.cpp
+	"utils.h"
+
+1460647940 source:i:\prog\myradio\myradio.cpp
+	"myradio.h"
+	"res/resource.h"
+
+1457519758 source:i:\prog\myradio\myutils.cpp
+	"myradio.h"
+	<stdarg.h>
+	<algorithm>
+
+1458567124 source:i:\prog\myradio\mytreeview\mytreeview.cpp
+	"../myradio.h"
+
+1458658392 source:i:\prog\myradio\mytreeview\mytreeview_win.cpp
+	"../myradio.h"
+
+1458656612 source:i:\prog\myradio\mytreeview\treedata.cpp
+	"../myradio.h"
+	"TreeData.h"
+
+1458656622 i:\prog\myradio\mytreeview\treedata.h
+
+1458656490 source:i:\prog\myradio\myradio_stationinfo_type.cpp
+	"myhdr.h"
+	"myradio.h"
+
+1458719952 i:\prog\myradio\font\font.h
+	"../myhdr.h"
+
+1459162200 source:i:\prog\myradio\font\font.cpp
+	"font.h"
+
+1458732198 i:\prog\myradio\mytreeview\tree.h
+	<cassert>
+	<memory>
+	<stdexcept>
+	<iterator>
+	<set>
+	<queue>
+	<algorithm>
+	<cstddef>
+
+1458732128 i:\prog\myradio\mytreeview\simple_tree.h
+	<cassert>
+	<memory>
+	<stdexcept>
+	<iterator>
+	<set>
+	<queue>
+	<algorithm>
+
+1460640680 source:i:\prog\myradio\unicode\unicode_func.cpp
+	"../myradio.h"
+
+1471356752 source:h:\other\prog\myradio\font\font.cpp
+	"font.h"
+
+1458719952 h:\other\prog\myradio\font\font.h
+	"../myhdr.h"
+
+1457444802 h:\other\prog\myradio\myhdr.h
+	<windows.h>
+	<winsock.h>
+	<commctrl.h>
+	<commdlg.h>
+	<shellapi.h>
+	<shlobj.h>
+	<mmsystem.h>
+	<stdio.h>
+	<tchar.h>
+	<string>
+	<math.h>
+	<cassert>
+	<vector>
+	<map>
+
+1454761670 source:h:\other\prog\myradio\main.cpp
+	"myradio.h"
+
+1488544722 h:\other\prog\myradio\myradio.h
+	"font/font.h"
+	"audio_engine/types.h"
+	"myradio_string.h"
+	"xml/Cxml.h"
+	"sqlite3/sqdb.h"
+	"audio_engine/myaudio_engine.h"
+	"net/mysock_proxy.h"
+	"my_global_utils.h"
+
+1471525319 h:\other\prog\myradio\xml\cxml.h
+	"utils.h"
+
+1456126110 h:\other\prog\myradio\xml\utils.h
+	"../myhdr.h"
+	"Node.h"
+
+1456126262 h:\other\prog\myradio\xml\node.h
+	"Attribute.h"
+	<list>
+
+1454189156 h:\other\prog\myradio\xml\attribute.h
+	"../myhdr.h"
+
+1458745580 h:\other\prog\myradio\sqlite3\sqdb.h
+	"../myhdr.h"
+	"sqlite3.h"
+	<tchar.h>
+
+1446504244 h:\other\prog\myradio\sqlite3\sqlite3.h
+	<stdarg.h>
+
+1488531613 source:h:\other\prog\myradio\myradio.cpp
+	"myradio.h"
+	"res/resource.h"
+
+1471852785 h:\other\prog\myradio\res\resource.h
+
+1488463492 source:h:\other\prog\myradio\myradio_addradio.cpp
+	"myradio.h"
+	"res/resource.h"
+
+1456594536 source:h:\other\prog\myradio\myradio_basedialog.cpp
+	"myradio.h"
+
+1505562941 source:h:\other\prog\myradio\myradio_config.cpp
+	"myradio.h"
+	<stdlib.h>
+	<time.h>
+	"all_type.h"
+
+1480326742 source:h:\other\prog\myradio\myradio_config_dialog.cpp
+	"myradio.h"
+	"res/resource.h"
+
+1488532933 source:h:\other\prog\myradio\myradio_string.cpp
+	"myhdr.h"
+	"all_type.h"
+
+1480326571 source:h:\other\prog\myradio\myutils.cpp
+	"myradio.h"
+	<stdarg.h>
+	<algorithm>
+
+1498140788 source:h:\other\prog\myradio\net\mysock_proxy.cpp
+	"../myhdr.h"
+	"../myradio.h"
+	<winsock2.h>
+	<cmath>
+	<stdlib.h>
+	<time.h>
+	"mysock_proxy.h"
+
+1471852785 source:h:\other\prog\myradio\res\myradio.rc
+	<windows.h>
+	<commctrl.h>
+	"resource.h"
+
+1508753277 source:h:\other\prog\myradio\sqlite3\sqdb.cpp
+	"sqdb.h"
+	"../myradio.h"
+
+1446504244 source:h:\other\prog\myradio\sqlite3\sqlite3.c
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	<tcl.h>
+	"sqlite3rtree.h"
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<ctype.h>
+	<math.h>
+
+1471518597 source:h:\other\prog\myradio\unicode\unicode_func.cpp
+	"../myradio.h"
+
+1454188984 source:h:\other\prog\myradio\xml\attribute.cpp
+	"Attribute.h"
+
+1471611171 source:h:\other\prog\myradio\xml\cxml.cpp
+	"../myhdr.h"
+	"Cxml.h"
+	"utils.h"
+
+1456126312 source:h:\other\prog\myradio\xml\node.cpp
+	"Node.h"
+
+1465384390 source:h:\other\prog\myradio\xml\utils.cpp
+	"utils.h"
+
+1471356700 source:h:\other\prog\myradio\audio_engine\stream.cpp
+
+1465385627 source:h:\other\prog\myradio\audio_engine\decoders\decoder.cpp
+	"decoder.h"
+
+1471250442 h:\other\prog\myradio\audio_engine\decoders\decoder.h
+	"../common.h"
+	"decoder_internal.h"
+
+1489155225 h:\other\prog\myradio\audio_engine\common.h
+	"../myhdr.h"
+	"types.h"
+	"../all_type.h"
+	"stream.h"
+
+1489155717 h:\other\prog\myradio\audio_engine\types.h
+
+1489155193 h:\other\prog\myradio\audio_engine\stream.h
+	"../myhdr.h"
+	"types.h"
+
+1489739276 h:\other\prog\myradio\all_type.h
+	"myradio_string.h"
+
+1489155253 h:\other\prog\myradio\audio_engine\decoders\decoder_internal.h
+
+1489155238 source:h:\other\prog\myradio\audio_engine\audio_util.cpp
+	"common.h"
+
+1471267054 source:h:\other\prog\myradio\audio_engine\decoders\decoder_mp3.cpp
+	"mympglib/MinMax.h"
+	"decoder.h"
+	"mympglib/mympg123.h"
+	"mympglib/mympglib.h"
+
+1488533164 h:\other\prog\myradio\net\mysock_proxy.h
+	"../myradio_string.h"
+
+1489146595 source:h:\other\prog\myradio\audio_engine\myaudio_engine.cpp
+	"common.h"
+	"../my_global_utils.h"
+	"protocol.h"
+	"decoders/decoder.h"
+	"output/main_out.h"
+	"output/output_wmme.h"
+	"myaudio_engine.h"
+
+1488546551 h:\other\prog\myradio\audio_engine\myaudio_engine.h
+	"../all_type.h"
+
+1488544740 h:\other\prog\myradio\my_global_utils.h
+
+1488532957 h:\other\prog\myradio\myradio_string.h
+
+1489155282 h:\other\prog\myradio\audio_engine\protocol.h
+	"protocol_http.h"
+	"../net/mysock_proxy.h"
+
+1489155268 h:\other\prog\myradio\audio_engine\protocol_http.h
+
+1489681390 h:\other\prog\myradio\audio_engine\output\main_out.h
+	"../common.h"
+
+1489146559 source:h:\other\prog\myradio\audio_engine\output\main_out.cpp
+	"output_wmme.h"
+
+1469781934 h:\other\prog\myradio\audio_engine\decoders\mpglib\mpg123.h
+	<string.h>
+	<signal.h>
+	<math.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+
+1469782524 h:\other\prog\myradio\audio_engine\decoders\mpglib\mpglib.h
+
+1161784800 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\common.cpp
+	"mpg123.h"
+	"mpglib.h"
+	"MinMax.h"
+
+1161784800 h:\other\prog\myradio\audio_engine\decoders\mpglib\minmax.h
+
+1161784800 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\dct64_i386.cpp
+	"mpg123.h"
+
+1161784800 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\decode_i386_float32.cpp
+	"mpg123.h"
+	"mpglib.h"
+
+1161784800 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\decode_i386_float64.cpp
+	"mpg123.h"
+	"mpglib.h"
+
+1161784800 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\decode_i386_int16.cpp
+	"mpg123.h"
+	"mpglib.h"
+	"RInt.h"
+
+1469448880 h:\other\prog\myradio\audio_engine\decoders\mpglib\rint.h
+
+1469782022 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\decode_i386_int24.cpp
+	"mpg123.h"
+	"mpglib.h"
+	"RInt.h"
+
+1161784800 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\decode_i386_int32.cpp
+	"mpg123.h"
+	"mpglib.h"
+	"RInt.h"
+
+1161784800 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\decode_i386_use_gain_float32.cpp
+	"mpg123.h"
+	"mpglib.h"
+
+1161784800 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\decode_i386_use_gain_float64.cpp
+	"mpg123.h"
+	"mpglib.h"
+
+1161784800 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\decode_i386_use_gain_int16.cpp
+	"mpg123.h"
+	"mpglib.h"
+	"RInt.h"
+
+1161784800 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\decode_i386_use_gain_int24.cpp
+	"mpg123.h"
+	"mpglib.h"
+	"RInt.h"
+
+1161784800 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\decode_i386_use_gain_int32.cpp
+	"mpg123.h"
+	"mpglib.h"
+	"RInt.h"
+
+1161784800 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\interface.cpp
+	<windows.h>
+	<float.h>
+	"mpg123.h"
+	"mpglib.h"
+	"MinMax.h"
+
+1161784800 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\layer1.cpp
+	"mpg123.h"
+	"mpglib.h"
+	"MinMax.h"
+
+1161784800 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\layer2.cpp
+	"mpg123.h"
+	"mpglib.h"
+	"MinMax.h"
+	"l2tables.h"
+
+1161784800 h:\other\prog\myradio\audio_engine\decoders\mpglib\l2tables.h
+
+1469447046 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\layer3.cpp
+	"mpg123.h"
+	"mpglib.h"
+	"MinMax.h"
+	"huffman.h"
+
+1161784800 h:\other\prog\myradio\audio_engine\decoders\mpglib\huffman.h
+
+1161784800 source:h:\other\prog\myradio\audio_engine\decoders\mpglib\tabinit.cpp
+	<stdlib.h>
+	"mpg123.h"
+
+1471341099 h:\other\prog\myradio\audio_engine\decoders\mympglib\mympg123.h
+	<stdio.h>
+	<string.h>
+	<signal.h>
+	<math.h>
+
+1488460735 source:h:\other\prog\myradio\audio_engine\decoders\mympglib\interface.cpp
+	<windows.h>
+	<float.h>
+	"mympg123.h"
+	"mympglib.h"
+	"MinMax.h"
+
+1471266164 h:\other\prog\myradio\audio_engine\decoders\mympglib\mympglib.h
+
+1469784335 h:\other\prog\myradio\audio_engine\decoders\mympglib\minmax.h
+
+1469785158 source:h:\other\prog\myradio\audio_engine\decoders\mympglib\tabinit.cpp
+	<stdlib.h>
+	"mympg123.h"
+
+1469791182 source:h:\other\prog\myradio\audio_engine\decoders\mympglib\layer2.cpp
+	"mympg123.h"
+	"mympglib.h"
+	"MinMax.h"
+	"l2tables.h"
+
+1161784800 h:\other\prog\myradio\audio_engine\decoders\mympglib\l2tables.h
+
+1469792052 source:h:\other\prog\myradio\audio_engine\decoders\mympglib\layer3.cpp
+	"mympg123.h"
+	"mympglib.h"
+	"MinMax.h"
+	"huffman.h"
+
+1469791334 h:\other\prog\myradio\audio_engine\decoders\mympglib\huffman.h
+
+1469791434 source:h:\other\prog\myradio\audio_engine\decoders\mympglib\decode_i386_float64.cpp
+	"mympg123.h"
+	"mympglib.h"
+
+1469791478 source:h:\other\prog\myradio\audio_engine\decoders\mympglib\dct64_i386.cpp
+	"mympg123.h"
+
+1469792193 source:h:\other\prog\myradio\audio_engine\decoders\mympglib\common.cpp
+	"mympg123.h"
+	"mympglib.h"
+	"MinMax.h"
+
+1469792312 source:h:\other\prog\myradio\audio_engine\decoders\mympglib\layer1.cpp
+	"mympg123.h"
+	"mympglib.h"
+	"MinMax.h"
+
+1489144503 h:\other\prog\myradio\audio_engine\output\output_wmme.h
+	"main_out.h"
+	"windows_waveformat.h"
+	"main_out_proc.h"
+
+1488548457 h:\other\prog\myradio\audio_engine\output\windows_waveformat.h
+
+1489740284 source:h:\other\prog\myradio\audio_engine\output\output_wmme.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<windows.h>
+	<mmsystem.h>
+	<malloc.h>
+	<memory.h>
+	"output_wmme.h"
+
+1488548514 source:h:\other\prog\myradio\audio_engine\output\windows_waveformat.cpp
+	<windows.h>
+	<mmsystem.h>
+	"main_out.h"
+	"windows_waveformat.h"
+
+1489674024 source:h:\other\prog\myradio\audio_engine\output\main_out_conv.cpp
+	"main_out_conv.h"
+	"main_out_dither.h"
+
+1489156264 h:\other\prog\myradio\audio_engine\output\main_out_conv.h
+	"main_out.h"
+
+1489681249 source:h:\other\prog\myradio\audio_engine\output\main_out_proc.cpp
+	"main_out_proc.h"
+
+1489680967 h:\other\prog\myradio\audio_engine\output\main_out_proc.h
+	"main_out.h"
+	"main_out_conv.h"
+	"main_out_dither.h"
+
+1489144007 h:\other\prog\myradio\audio_engine\output\main_out_dither.h
+
+1489144276 source:h:\other\prog\myradio\audio_engine\output\main_out_dither.cpp
+	"main_out_dither.h"
+
